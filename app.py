@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.INFO)
 app = Flask(__name__)
 
 # Telegram Bot Token and MongoDB URI from environment variables
-API_TOKEN = os.getenv("API_TOKEN")
-MONGO_URI = os.getenv("MONGO_URI")
+API_TOKEN = os.getenv("7582332724:AAGv_voD95gioLsyQnVyFP0tUsDt4T31VQQ")
+MONGO_URI = os.getenv("mongodb+srv://chaiflix69:chaiflix69@chaiflix.nt5c9.mongodb.net/?retryWrites=true&w=majority&appName=chaiflix")
 
 # Create bot client
 bot = Client("movie_bot", bot_token=API_TOKEN)
