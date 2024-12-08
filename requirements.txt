@@ -1,0 +1,4 @@
+flask
+pyrogram
+motor
+python-dotenv
